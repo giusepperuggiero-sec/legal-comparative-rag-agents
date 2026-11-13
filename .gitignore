@@ -1,0 +1,31 @@
+# Python & virtualenvs
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+venv/
+.venv/
+env/
+
+# Environment & runtime configuration
+.env
+config.json
+
+# IDE & OS metadata
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# Generated FAISS binaries & runtime conversation logs
+vector_store/
+*.faiss
+*.pkl
+logs/chat_history*.json
+
+# Temporary backups / scratch
+_orig/
+.streamlit/

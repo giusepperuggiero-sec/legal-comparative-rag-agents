@@ -1,0 +1,42 @@
+[
+  {
+    "question": "In Estonia, while we’re still married under a joint property regime, can I sell “my half” of the marital assets or force a division?",
+    "reference": "Under Estonia's joint property regime, spouses do not have freely disposable fixed halves during the marriage, so one spouse cannot unilaterally sell a personal 'half' of joint assets. Division is generally carried out upon termination of the regime or by judicial intervention in legally justified cases."
+  },
+  {
+    "question": "My spouse and I want to change our matrimonial property regime in Italy. What form does the agreement need, and when does it bind third parties?",
+    "reference": "In Italy, a matrimonial property agreement changing the regime must be executed by public deed (atto pubblico), otherwise it is void. It binds third parties only after the required publicity formalities, especially annotation in the marriage record."
+  },
+  {
+    "question": "In Estonia, if I’m entitled to a compulsory portion, how big is it and what do I actually receive?",
+    "reference": "In Estonia, the compulsory portion is generally half of the share the forced heir would receive under intestate succession. The beneficiary receives a monetary claim/value corresponding to that compulsory share, enforceable against heirs and, where relevant, beneficiaries of testamentary dispositions."
+  },
+  {
+    "question": "If inherited real estate can’t be divided conveniently among heirs, can the court order a public auction and split the proceeds?",
+    "reference": "Yes. In civil-law succession practice, when inherited real estate cannot be conveniently divided in kind among co-heirs, the court may order judicial sale (including public auction) and then divide the proceeds according to each heir's share."
+  },
+  {
+    "question": "I’m married under a community/joint property regime. Can I sell or gift my “share” of the marital property while still married, if we’re in Estonia vs. Slovenia?",
+    "reference": "In both Estonia and Slovenia, during the subsistence of community/joint marital property, spouses generally cannot freely dispose of an abstract personal 'share' as if it were individually partitioned property. Disposal of common assets usually requires the other spouse's participation/consent, while individual share disposal becomes practical only after division or regime termination."
+  },
+  {
+    "question": "My siblings and I inherited an apartment in Italy, but it can’t be conveniently divided. What does the civil code say should happen, and do courts actually proceed with an auction sale?",
+    "reference": "Italian Civil Code Article 720 provides that if an inherited immovable is not conveniently divisible, it may be assigned to one co-heir with equalization payment; otherwise it is sold and the price is distributed among heirs. Italian case law confirms that courts do proceed with judicial/auction sale when assignment in kind is not feasible."
+  },
+  {
+    "question": "In Slovenia, when can a spouse request judicial separation of assets ? What are the legal triggers, and what can a court practically order in a real dispute?",
+    "reference": "In Slovenia, a spouse may seek judicial separation of assets when legal conditions indicate serious risk to the spouse's or family's patrimonial interests (for example mismanagement, dissipation, excessive indebtedness, or other grave disruption of joint property administration). The court can order separation/termination of the joint-property regime and determine the parties' respective shares and settlement consequences."
+  },
+  {
+    "question": "In civil law, what’s the difference between a void contract and a voidable contract, and what are the consequences?",
+    "reference": "A void contract is null ab initio and has no legal effect; it can be invoked by any interested party and is generally not cured by confirmation. A voidable contract is effective until annulled, and only the protected party (or those entitled) may challenge it within legal time limits; it may also be validated by confirmation or lapse of challenge period."
+  },
+  {
+    "question": "In civil law, what must be proven to establish non-contractual (tort) liability for negligence?",
+    "reference": "To establish non-contractual negligence liability, one must prove an unlawful conduct (breach of a duty of care), fault (at least negligence), actual damage, and a causal link between the conduct and the damage."
+  },
+  {
+    "question": "In Estonia, if spouses have a claim owned jointly (e.g., a receivable), can it be set off during the property-division dispute? How does a court net amounts in practice?",
+    "reference": "In Estonia, a jointly owned receivable may be accounted for in marital property division, and courts can perform balancing/netting of reciprocal patrimonial items when determining final settlements between spouses. In practice, the court values claims and liabilities, allocates them according to the applicable shares, and offsets resulting amounts to reach a net payable balance."
+  }
+]

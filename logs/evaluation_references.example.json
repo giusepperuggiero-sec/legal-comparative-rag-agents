@@ -1,0 +1,14 @@
+[
+  {
+    "question": "According to the legal documents, what is the exact Article number in Slovenia that deals with the division of property?",
+    "reference": "In Slovenia, division of spouses' property is addressed by Article 75."
+  },
+  {
+    "question": "In Italy, which article regulates reduction of testamentary dispositions that harm reserved shares?",
+    "reference": "In Italy, actions to reduce testamentary dispositions that infringe forced-heir rights are governed by Article 554 of the Civil Code."
+  },
+  {
+    "question": "In Estonia, what is one legal ground for divorce under the Family Law Act?",
+    "reference": "A legal ground for divorce in Estonia is the irretrievable breakdown of the marriage relationship, as assessed by the court."
+  }
+]

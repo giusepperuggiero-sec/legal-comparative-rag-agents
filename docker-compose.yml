@@ -1,0 +1,37 @@
+services:
+  legal-rag-app:
+    image: legal-rag-app:dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: legal-rag-container
+    ports:
+      - "127.0.0.1:8501:8501"
+    volumes:
+      - ./Homepage.py:/app/Homepage.py
+      - ./api.py:/app/api.py
+      - ./backend:/app/backend
+      - ./pages:/app/pages
+      - ./data:/app/data:ro
+      - ./logs:/app/logs
+      - ./vector_store:/app/vector_store
+    env_file:
+      - .env
+
+  legal-rag-api:
+    image: legal-rag-app:dev
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: legal-rag-api-container
+    command: ["uvicorn", "api:app", "--host", "0.0.0.0", "--port", "8000"]
+    ports:
+      - "127.0.0.1:8000:8000"
+    volumes:
+      - ./api.py:/app/api.py
+      - ./backend:/app/backend
+      - ./data:/app/data:ro
+      - ./logs:/app/logs
+      - ./vector_store:/app/vector_store
+    env_file:
+      - .env
