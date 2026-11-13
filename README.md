@@ -2,7 +2,7 @@
 
 An end-to-end **Retrieval-Augmented Generation (RAG)** and **LLMOps evaluation** platform comparing **Single-Agent ReAct** and **Hierarchical Multi-Agent Supervisor** architectures over comparative European civil law (**Italy**, **Slovenia**, **Estonia**), featuring **PII Guardrails**, **XML Anti-Prompt-Injection Boundaries**, **FAISS Flat L2** hybrid metadata routing, **Streamlit** UI, **FastAPI** REST serving, and **RAGAS** automated benchmarking.
 
-> **Academic Context:** Developed for the *Text Mining* course (Prof. Flora Amato, A.Y. 2025/2026) at the University of Naples Federico II (DIETI) by **Giuseppe Ruggiero** (`M63001719`), **Filomena Vigliotti** (`M63001734`), and **Francesco Panico** (`M63001766`).
+> **Academic Context:** Developed for the *Text Mining* course (Prof. Flora Amato, A.Y. 2025/2026) at the University of Naples Federico II (DIETI) by **Giuseppe Ruggiero**, **Filomena Vigliotti**, and **Francesco Panico**.
 
 ---
 

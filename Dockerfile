@@ -19,5 +19,11 @@ RUN --mount=type=cache,target=/root/.cache/pip \
 
 COPY . .
 
+RUN useradd --create-home --shell /bin/bash appuser \
+    && mkdir -p /app/logs /app/vector_store \
+    && chown -R appuser:appuser /app
+
+USER appuser
+
 EXPOSE 8501
 CMD ["streamlit", "run", "Homepage.py", "--server.port=8501", "--server.address=0.0.0.0"]

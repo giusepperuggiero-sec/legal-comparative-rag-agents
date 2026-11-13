@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 from backend.configuration import RagConfig
@@ -40,7 +41,9 @@ class SingleAgent:
         try:
             response_obj = self.llm.invoke(prompt)
             response_text = str(response_obj.content).strip().upper()
-            return "NO" not in response_text or "YES" in response_text
+            has_yes = bool(re.search(r"\bYES\b", response_text))
+            has_no = bool(re.search(r"\bNO\b", response_text))
+            return has_yes or not has_no
         except Exception as exc:
             print(f"[SINGLE AGENT WARNING] Intent classification failed: {exc}")
             return True
@@ -154,7 +157,10 @@ class SingleAgent:
         )
 
         response_obj = self.llm.invoke(prompt)
-        final_answer = str(getattr(response_obj, "content", response_obj)).replace("### RISPOSTA:", "").strip()
+        raw_answer = str(getattr(response_obj, "content", response_obj))
+        final_answer = (
+            raw_answer.replace("### ANSWER:", "").replace("### RISPOSTA:", "").strip()
+        )
 
         return {
             "answer": final_answer,
